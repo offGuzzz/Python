@@ -5,14 +5,14 @@ cont=1
 while cont == 1:
     #menu
     os.system('cls')
-    title= 'CRIPTOGRAFADOR'
+    title= 'ASCII-STRING'
     print(title)
-    print(f'Deseja converter para:\n[1]TEXTO\n[2]ASCII\n[9]SAIR')
+    print(f'Deseja Converter De:\n[1]TEXTO\n[2]ASCII\n[9]SAIR')
     res= int(input('Oque Deseja Fazer?'))
     if res==9:
         break
     #opção do user
-    if res==1:
+    elif res==1:
         sleep(1)
         os.system('cls')
         A1= ('01000001')
@@ -80,7 +80,7 @@ while cont == 1:
         if cont==2:
             break
 
-    if res==2:
+    elif res==2:
         sleep(1)
         os.system('cls')
         ascii_to_str= int(input('Digite A Palavra Que Quer Descriptografar:'),2);
@@ -98,7 +98,7 @@ while cont == 1:
         cont=int(input('Deseja Continuar? '))
         if cont==2:
             break
-    if res==9:
+    elif res==9:
         break
     else:
         os.system('cls')
