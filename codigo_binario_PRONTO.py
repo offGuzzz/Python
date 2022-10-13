@@ -5,9 +5,9 @@ cont=1
 while cont == 1:
     #menu
     os.system('cls')
-    title= 'ASCII-STRING'
-    print(title)
-    print(f'Deseja Converter De:\n[1]TEXTO\n[2]ASCII\n[9]SAIR')
+    title= 'BINARIO---STRING'
+    print(f'{title:-^30}')
+    print(f'Deseja Converter De:\n[1]TEXTO\n[2]BINARIO\n[9]SAIR')
     res= int(input('Oque Deseja Fazer?'))
     if res==9:
         break
